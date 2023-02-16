@@ -1,2 +1,2 @@
 #!/bin/bash
-cat icata | tail -n 1 >> icata
+cat icata | tail --lines=1 >> icata
