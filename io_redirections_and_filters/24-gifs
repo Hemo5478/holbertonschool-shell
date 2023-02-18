@@ -1,2 +1,2 @@
 #!/bin/bash
-find -L . .gif
+find -L . *.gif
