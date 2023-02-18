@@ -1,2 +1,2 @@
 #!/bin/bash
-tail -n+2 |cut -f1 | sort | uniq -d | sort -Rm
+tail -n+2 |cut -f1 | sort | uniq -d | sort -rm
