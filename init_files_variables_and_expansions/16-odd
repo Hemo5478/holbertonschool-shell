@@ -1,2 +1,2 @@
 #!/bin/bash
-ls | perl 'NR % 2 == 1' | sort
+ls | perl -ne 'print if ($.%2)' | sort
