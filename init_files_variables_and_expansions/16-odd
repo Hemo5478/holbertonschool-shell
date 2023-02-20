@@ -1,2 +1,2 @@
 #!/bin/bash
-ls | perl '2>&1' | sort
+ls | perl 'NR % 2 == 1' | sort
