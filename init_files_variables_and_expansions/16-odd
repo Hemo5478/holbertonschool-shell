@@ -1,2 +1,2 @@
 #!/bin/bash
-ls | perl '/.*[13579]' | sort
+ls | perl '2>&1' | sort
